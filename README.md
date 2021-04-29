@@ -1,18 +1,18 @@
 # build-package
-## 引用maven动态参数
+## 一、引用maven动态参数
 > 1.pom动态参数配置
 >> 详见pom文件 profiles 标签
 
 > 2.通过properties文件应用pom中的动态参数，再通过加载properties文件获取动态参数
 
 
-## 指定私人maven仓库
+## 二、指定私人maven仓库
 > 详见pom文件中 repositories 标签
 
-## 发布项目到私人仓库
+## 三、发布项目到私人仓库
 > 详见pom中 distributionManagement 标签
 
-## 三种打包方式
+## 四、三种打包方式
 > 1.maven-jar-plugin maven-dependency-plugin
 >>maven-jar-plugin将源码打包，maven-dependency-plugin将引用打包
 >>> 源码打包为xxx.jar
